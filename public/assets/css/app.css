@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+*{
+    color: #333333  !important;
+    font-family: sans-serif !important;
+   
+}
+
+.navbar{
+   background-color: #E3E9FF !important ;
+}
+
+.nav-link{
+    color: #333333 ;
+    font-family: circula;
+    font-weight: bold;
+    
+}
+
+.nav-link:hover{
+    color: #514BC0 !important;
+}
+
+
+.home{
+    background:#E3E9FF;
+    padding: 7rem 3rem 3rem 7rem;   
+}
+
+  /*h1 e h4 */
+.segura{
+    max-width: 50rem;
+    padding: 5rem;
+}
+  
+.subtitulo{
+    margin-left: 6rem;
+}
+
+.title{
+    font-family: 'Original Surfer', cursive !important;
+    list-style: 1;
+    font-size: 3rem;
+    margin: 1rem 0;
+    position: relative;
+    color: #333;
+    z-index: 1;
+  }
+
+.title::after{
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #5146C6;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    border-radius: 0.2rem;
+    z-index: -1;
+}
+
+
+
+.input {
+    border:1px solid #eee;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    background: #eee;
+    transform: 0.2;
+}
+
+.input:hover,
+.input:focus{
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 3px #CCCCCC;
+}
+
+
+.label{
+    display: block;
+    font-size: 1rem;
+    line-height: 1;
+    padding-bottom: 0.5rem;
+}
+
+.wrapper { 
+    margin-bottom: 1rem; /*separar os elementos */
+    max-width: 30rem;
+    
+}
+
+
+.perdeu:hover{
+    color: #514BC0 !important;
+    text-decoration: underline #514BC0;
+}
+
+.subtitle::after{
+    content: '';
+    display: block;
+    background: #ddd;
+    height: 0.4rem;
+    width: 3rem;
+    border-radius: 0.2rem;
+}
+
+.img{
+    height: 420px;
+    width: 500px;
+}
+
+@media only screen and (max-width: 768px){
+    #cadastro {
+        display: none;
+    }
+
+    #home{
+        display: none;
+    }
+
+    #login{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .img{
+        height: 420px;
+        width: 380px;
+    }
+
+    
+    .subtitulo{
+        font-size: 1rem;
+        margin-left: 4rem;
+    }
+
+  
+} 
+
+.navbar-toggler{
+    border: none !important;
+}
